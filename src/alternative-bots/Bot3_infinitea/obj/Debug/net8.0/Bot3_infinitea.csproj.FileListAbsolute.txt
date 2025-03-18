@@ -1,8 +1,4 @@
 E:\Tubes1_Infinitea\src\alternative-bots\Bot3_infinitea\bin\Debug\net8.0\Bot3_infinitea.exe
-E:\Tubes1_Infinitea\src\alternative-bots\Bot3_infinitea\bin\Debug\net8.0\Bot3_infinitea.deps.json
-E:\Tubes1_Infinitea\src\alternative-bots\Bot3_infinitea\bin\Debug\net8.0\Bot3_infinitea.runtimeconfig.json
-E:\Tubes1_Infinitea\src\alternative-bots\Bot3_infinitea\bin\Debug\net8.0\Bot3_infinitea.dll
-E:\Tubes1_Infinitea\src\alternative-bots\Bot3_infinitea\bin\Debug\net8.0\Bot3_infinitea.pdb
 E:\Tubes1_Infinitea\src\alternative-bots\Bot3_infinitea\bin\Debug\net8.0\Microsoft.Build.Locator.dll
 E:\Tubes1_Infinitea\src\alternative-bots\Bot3_infinitea\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
 E:\Tubes1_Infinitea\src\alternative-bots\Bot3_infinitea\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -29,5 +25,3 @@ E:\Tubes1_Infinitea\src\alternative-bots\Bot3_infinitea\obj\Debug\net8.0\Bot3_in
 E:\Tubes1_Infinitea\src\alternative-bots\Bot3_infinitea\obj\Debug\net8.0\Bot3_infinitea.dll
 E:\Tubes1_Infinitea\src\alternative-bots\Bot3_infinitea\obj\Debug\net8.0\refint\Bot3_infinitea.dll
 E:\Tubes1_Infinitea\src\alternative-bots\Bot3_infinitea\obj\Debug\net8.0\Bot3_infinitea.pdb
-E:\Tubes1_Infinitea\src\alternative-bots\Bot3_infinitea\obj\Debug\net8.0\Bot3_infinitea.genruntimeconfig.cache
-E:\Tubes1_Infinitea\src\alternative-bots\Bot3_infinitea\obj\Debug\net8.0\ref\Bot3_infinitea.dll
