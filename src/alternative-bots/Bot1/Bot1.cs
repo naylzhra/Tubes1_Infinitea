@@ -65,9 +65,9 @@ public class Bot1 : Bot
         Console.WriteLine("Ouch! I hit a bot at " + e.X + ", " + e.Y);
         var distance = DistanceTo(e.X,e.Y);
         
-        if (Energy < 25){
-            TurnRight(135);
-            Forward(50);
+        if (Energy < 30){
+            Back(50);
+            TurnRight(45);
         } else {
             TurnToFaceTarget(e.X,e.Y);
             Fire(4);
