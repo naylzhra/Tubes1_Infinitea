@@ -1,0 +1,6 @@
+C:\Users\USER\Documents\Nayla\Tubes1_Infinitea\src\alternative-bots\Bot2.1\obj\Debug\net8.0\Bot2.1.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\Nayla\Tubes1_Infinitea\src\alternative-bots\Bot2.1\obj\Debug\net8.0\Bot2.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Documents\Nayla\Tubes1_Infinitea\src\alternative-bots\Bot2.1\obj\Debug\net8.0\Bot2.1.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Nayla\Tubes1_Infinitea\src\alternative-bots\Bot2.1\obj\Debug\net8.0\Bot2.1.AssemblyInfo.cs
+C:\Users\USER\Documents\Nayla\Tubes1_Infinitea\src\alternative-bots\Bot2.1\obj\Debug\net8.0\Bot2.1.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Nayla\Tubes1_Infinitea\src\alternative-bots\Bot2.1\obj\Debug\net8.0\Bot2.1.sourcelink.json
