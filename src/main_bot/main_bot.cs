@@ -21,11 +21,13 @@ public class main_bot : Bot
 
     public override void Run()
     {
-        BodyColor = Color.FromArgb(0x00, 0xC8, 0x00);   
-        TurretColor = Color.FromArgb(0x00, 0x96, 0x32); 
+        BodyColor = Color.Cyan;   
+        TurretColor = Color.Cyan; 
         RadarColor = Color.FromArgb(0x00, 0x64, 0x64);  
         BulletColor = Color.FromArgb(0xFF, 0xFF, 0x64); 
-        ScanColor = Color.FromArgb(0xFF, 0xC8, 0xC8);  
+        ScanColor = Color.Cyan; 
+        TracksColor = Color.Gray;
+        GunColor = Color.FromArgb(0x00, 0x00, 0x00); 
 
         SetTurnRight(360);
 

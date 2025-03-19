@@ -1,33 +1,33 @@
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\main_bot.exe
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\main_bot.deps.json
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\main_bot.runtimeconfig.json
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\main_bot.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\main_bot.pdb
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Build.Locator.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Robocode.TankRoyale.BotApi.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\SVG.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.csproj.AssemblyReference.cache
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.AssemblyInfoInputs.cache
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.AssemblyInfo.cs
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.csproj.CoreCompileInputs.cache
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.sourcelink.json
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.csproj.Up2Date
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\refint\main_bot.dll
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.pdb
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.genruntimeconfig.cache
-C:\Users\USER\Documents\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\ref\main_bot.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\main_bot.exe
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\main_bot.deps.json
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\main_bot.runtimeconfig.json
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\main_bot.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\main_bot.pdb
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\Robocode.TankRoyale.BotApi.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\SVG.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.csproj.AssemblyReference.cache
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.AssemblyInfoInputs.cache
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.AssemblyInfo.cs
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.csproj.CoreCompileInputs.cache
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.sourcelink.json
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.csproj.Up2Date
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\refint\main_bot.dll
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.pdb
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\main_bot.genruntimeconfig.cache
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\main_bot\obj\Debug\net8.0\ref\main_bot.dll
