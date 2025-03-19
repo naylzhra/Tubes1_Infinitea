@@ -25,7 +25,7 @@ public class Bot3_infinitea : Bot
         BodyColor = Color.Lime;   
         TurretColor = Color.Lime; 
         RadarColor = Color.Green;  
-        BulletColor = Color.FromArgb(0xFF, 0xFF, 0x64); 
+        BulletColor = Color.Green; 
         ScanColor = Color.Lime;  
         TracksColor = Color.Gray;
         GunColor = Color.FromArgb(0x00, 0x00, 0x00);

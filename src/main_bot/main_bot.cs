@@ -24,7 +24,7 @@ public class main_bot : Bot
         BodyColor = Color.Cyan;   
         TurretColor = Color.Cyan; 
         RadarColor = Color.FromArgb(0x00, 0x64, 0x64);  
-        BulletColor = Color.FromArgb(0xFF, 0xFF, 0x64); 
+        BulletColor = Color.Teal; 
         ScanColor = Color.Cyan; 
         TracksColor = Color.Gray;
         GunColor = Color.FromArgb(0x00, 0x00, 0x00); 

@@ -23,8 +23,8 @@ public class Bot2v1 : Bot
         GunColor = Color.FromArgb(0x60, 0x00, 0x60);    
         TurretColor = Color.Plum; 
         RadarColor = Color.Purple;  
-        ScanColor = Color.FromArgb(0xFF, 0x00, 0x00);   
-        BulletColor = Color.FromArgb(0xFF, 0x00, 0x00); 
+        ScanColor = Color.Plum;   
+        BulletColor = Color.Purple; 
         TracksColor = Color.Gray;
         GunColor = Color.FromArgb(0x00, 0x00, 0x00);
 
