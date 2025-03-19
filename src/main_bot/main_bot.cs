@@ -63,7 +63,7 @@ public class main_bot : Bot
         }
         else if (Math.Abs(distance) <= 500){
             TurnLeft(bearing);
-            Fire(Math.Min(2, Energy-0.1));
+            Fire(Math.Min(2.5, Energy-0.1));
             Forward(150);
         }
         else{
@@ -77,12 +77,12 @@ public class main_bot : Bot
     {
         var distance = DistanceTo(e.X,e.Y);
         
-        if (Energy < 25){
+        if (Energy < 30){
             TurnRight(90);
             Forward(100);
         } else {
             TurnToFaceTarget(e.X,e.Y);
-            Fire(4);
+            Fire(5);
         }
     }
 
