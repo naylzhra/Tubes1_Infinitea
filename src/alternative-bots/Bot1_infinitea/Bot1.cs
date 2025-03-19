@@ -37,12 +37,10 @@ public class Bot1 : Bot
         Console.WriteLine("I see a bot at " + e.X + ", " + e.Y);
         var distance = DistanceTo(e.X,e.Y);
         
-        if (distance > 100)
+        if (distance > 50)
         {
             Forward(50);
         }
-
-        // Serang dengan peluru ringan/sedang
         if (Energy > 50)
         {
             Fire(2);
@@ -61,7 +59,8 @@ public class Bot1 : Bot
         
         if (Energy < 20 && distance < 50)
         {
-            Forward(20);
+            Back(50);
+            TurnRight(45);
         }
     }
 
