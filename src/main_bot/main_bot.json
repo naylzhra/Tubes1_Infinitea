@@ -1,0 +1,10 @@
+{
+  "name": "Infinitea",
+  "version": "1.0",
+  "authors": ["Anella", "Diyah", "Nayla"],
+  "description": "Main bot",
+  "homepage": "",
+  "countryCodes": ["id"],
+  "platform": ".Net 8.0",
+  "programmingLang": "C# 12.0"
+}
