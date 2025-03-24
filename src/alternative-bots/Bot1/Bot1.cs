@@ -17,12 +17,12 @@ public class Bot1 : Bot
     public override void Run()
     {
         /* Customize bot colors, read the documentation for more information */
-        BodyColor = Color.FromArgb(0xFF, 0xC0, 0xCB);
-        TurretColor = Color.FromArgb(0x00, 0x00, 0x00);
-        RadarColor = Color.FromArgb(0x00, 0x00, 0x00);
-        BulletColor = Color.FromArgb(0x00, 0x00, 0x00);
-        ScanColor = Color.FromArgb(0xFF, 0xFF, 0x00);
-        TracksColor = Color.FromArgb(0x00, 0x00, 0x00);
+        BodyColor = Color.LightPink;
+        TurretColor = Color.LightPink;
+        RadarColor = Color.Pink;
+        BulletColor = Color.HotPink;
+        ScanColor = Color.MistyRose;
+        TracksColor = Color.Gray;
         GunColor = Color.FromArgb(0x00, 0x00, 0x00);
 
         while (IsRunning)
