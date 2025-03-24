@@ -818,19 +818,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Anella Utari\\.nuget\\packages\\": {}
+    "C:\\Users\\diyah\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anella Utari\\Documents\\GitHub\\Tubes1_Infinitea\\src\\alternative-bots\\Bot1\\Bot1.csproj",
-      "projectName": "Bot1",
-      "projectPath": "C:\\Users\\Anella Utari\\Documents\\GitHub\\Tubes1_Infinitea\\src\\alternative-bots\\Bot1\\Bot1.csproj",
-      "packagesPath": "C:\\Users\\Anella Utari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anella Utari\\Documents\\GitHub\\Tubes1_Infinitea\\src\\alternative-bots\\Bot1\\obj\\",
+      "projectUniqueName": "E:\\Tubes1_Infinitea\\src\\alternative-bots\\Bot3\\Bot3.csproj",
+      "projectName": "Bot3",
+      "projectPath": "E:\\Tubes1_Infinitea\\src\\alternative-bots\\Bot3\\Bot3.csproj",
+      "packagesPath": "C:\\Users\\diyah\\.nuget\\packages\\",
+      "outputPath": "E:\\Tubes1_Infinitea\\src\\alternative-bots\\Bot3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Anella Utari\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\diyah\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
