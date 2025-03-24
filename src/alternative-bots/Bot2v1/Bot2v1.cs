@@ -3,11 +3,6 @@ using System.Drawing;
 using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
 
-// need to fix the radar, make it ongoing all the time
-// spin the body and gun at the same time
-// fire with more damage
-// move away to corner if energy is low
-
 public class Bot2v1 : Bot
 {
     static void Main(string[] args)

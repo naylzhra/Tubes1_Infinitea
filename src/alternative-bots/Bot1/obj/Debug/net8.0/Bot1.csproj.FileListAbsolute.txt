@@ -1,3 +1,9 @@
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\obj\Debug\net8.0\Bot1.csproj.AssemblyReference.cache
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\obj\Debug\net8.0\Bot1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\obj\Debug\net8.0\Bot1.AssemblyInfoInputs.cache
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\obj\Debug\net8.0\Bot1.AssemblyInfo.cs
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\obj\Debug\net8.0\Bot1.csproj.CoreCompileInputs.cache
+C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\obj\Debug\net8.0\Bot1.sourcelink.json
 C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\bin\Debug\net8.0\Bot1.exe
 C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\bin\Debug\net8.0\Bot1.deps.json
 C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\bin\Debug\net8.0\Bot1.runtimeconfig.json
@@ -19,12 +25,6 @@ C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot
 C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\bin\Debug\net8.0\SVG.dll
 C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\obj\Debug\net8.0\Bot1.csproj.AssemblyReference.cache
-C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\obj\Debug\net8.0\Bot1.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\obj\Debug\net8.0\Bot1.AssemblyInfoInputs.cache
-C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\obj\Debug\net8.0\Bot1.AssemblyInfo.cs
-C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\obj\Debug\net8.0\Bot1.csproj.CoreCompileInputs.cache
-C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\obj\Debug\net8.0\Bot1.sourcelink.json
 C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\obj\Debug\net8.0\Bot1.csproj.Up2Date
 C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\obj\Debug\net8.0\Bot1.dll
 C:\Users\Anella Utari\Documents\GitHub\Tubes1_Infinitea\src\alternative-bots\Bot1\obj\Debug\net8.0\refint\Bot1.dll

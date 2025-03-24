@@ -21,14 +21,14 @@ public class Bot3_infinitea : Bot
 
 
     public override void Run()
-    {
+    {                
         BodyColor = Color.Lime;   
         TurretColor = Color.Lime; 
         RadarColor = Color.Green;  
         BulletColor = Color.Green; 
         ScanColor = Color.Lime;  
         TracksColor = Color.Gray;
-        GunColor = Color.FromArgb(0x00, 0x00, 0x00);
+        GunColor = Color.FromArgb(0x00, 0x00, 0x00);  
 
         SetTurnRight(360);
 

@@ -818,19 +818,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Anella Utari\\.nuget\\packages\\": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anella Utari\\Documents\\GitHub\\Tubes1_Infinitea\\src\\alternative-bots\\Bot2v1\\Bot2v1.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Documents\\Nayla\\Tubes1_Infinitea\\src\\alternative-bots\\Bot2v1\\Bot2v1.csproj",
       "projectName": "Bot2v1",
-      "projectPath": "C:\\Users\\Anella Utari\\Documents\\GitHub\\Tubes1_Infinitea\\src\\alternative-bots\\Bot2v1\\Bot2v1.csproj",
-      "packagesPath": "C:\\Users\\Anella Utari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anella Utari\\Documents\\GitHub\\Tubes1_Infinitea\\src\\alternative-bots\\Bot2v1\\obj\\",
+      "projectPath": "C:\\Users\\USER\\Documents\\Nayla\\Tubes1_Infinitea\\src\\alternative-bots\\Bot2v1\\Bot2v1.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Documents\\Nayla\\Tubes1_Infinitea\\src\\alternative-bots\\Bot2v1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Anella Utari\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
