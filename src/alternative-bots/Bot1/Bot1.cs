@@ -3,9 +3,14 @@ using System.Drawing;
 using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
 
+// Blackpink
+// ----------------------------------------------------------------------------------------------
+//                Bot dengan fokus utama ada pada scanned bot dan onhitbot dengan
+//             mempertimbangkan jarak dan energi dalam strategi Greedy yang digunakan
+// -----------------------------------------------------------------------------------------------
+
 public class Bot1 : Bot
 {   
-    /* A bot that drives forward and backward, and fires a bullet */
     int turnDirection = 1;
     static void Main(string[] args)
     {
@@ -16,83 +21,70 @@ public class Bot1 : Bot
 
     public override void Run()
     {
-        /* Customize bot colors, read the documentation for more information */
-        BodyColor = Color.FromArgb(0xFF, 0xC0, 0xCB);
-        TurretColor = Color.FromArgb(0x00, 0x00, 0x00);
-        RadarColor = Color.FromArgb(0x00, 0x00, 0x00);
-        BulletColor = Color.FromArgb(0x00, 0x00, 0x00);
-        ScanColor = Color.FromArgb(0xFF, 0xFF, 0x00);
-        TracksColor = Color.FromArgb(0x00, 0x00, 0x00);
+        BodyColor = Color.LightPink;
+        TurretColor = Color.LightPink;
+        RadarColor = Color.Pink;
+        BulletColor = Color.HotPink;
+        ScanColor = Color.MistyRose;
+        TracksColor = Color.Gray;
         GunColor = Color.FromArgb(0x00, 0x00, 0x00);
 
         while (IsRunning)
         {
-            Forward(200);
-            TurnRight(45);
-            // TurnGunRight(45);
-            // TurnGunLeft(45);
+            Forward(200);           // pola jalannya adalah dengan maju dan mengganti arah jalan
+            TurnRight(45);          // ke arah kanan sebesar 45 derajat setiap maju 200 piksel
         }
     }
 
-    // We saw another bot -> fire!
     public override void OnScannedBot(ScannedBotEvent e)
     {
-        Console.WriteLine("I see a bot at " + e.X + ", " + e.Y);
         var distance = DistanceTo(e.X,e.Y);
         
-        if (distance > 100){
-            SetFire(1);
+        if (distance > 100){            // jika jauh dari musuh, maka menembak dengan kekuatan kecil dan maju mendekati msuuh
+            Fire(1);
             Forward(100);
-        } else if (distance > 50){
-            Forward(50);
-            if (Energy > 50){
-                SetFire(3);
+        } else if (distance > 50){      // jika jaraknya lumayan dekat dengan musuh,
+            Forward(50);                // maka maju mendekati musuh sambil menembak sesuai dengan energi saat ini
+            if (Energy > 50){           // jika energi > 50 maka menembak dengan kekuatan 3, jika energi < 50 maka menembak dengan kekuatan 2
+                Fire(3);
             } else {
-                SetFire(2);
+                Fire(2);
             }
         } else {
-            if (Energy > 50){
-                SetFire(4);
-            } else {
-                SetFire(3);
+            if (Energy > 50){           // jika jaraknya dekat dengan musuh, maka menembak sesuai dengan energi saat ini
+                Fire(4);                // jika energi > 50 maka menembak dengan kekuatan 4
+            } else {                    // jika energi sedikit (<=50) maka menembak dengan kekuatan 3
+                Fire(3);
             }
         }
-        // Rescan();
     }
 
     public override void OnHitBot(HitBotEvent e)
     {
-        Console.WriteLine("Ouch! I hit a bot at " + e.X + ", " + e.Y);
         var distance = DistanceTo(e.X,e.Y);
         
-        if (Energy < 30){
-            Back(50);
-            TurnRight(45);
+        if (Energy < 30){                   // jika menabrak bot musuh dan energi saat ini < 30
+            Back(50);                       // bot akan menghindar dengan mundur, belok ke arah kanan sebesar 90 derajat lalu maju
+            TurnRight(90);
+            Forward(100);
         } else {
-            TurnToFaceTarget(e.X,e.Y);
-            Fire(4);
+            TurnToFaceTarget(e.X,e.Y);      // jika energinya masih banyak yaitu >= 30, maka bot akan menghadap ke bot musuh
+            Fire(4);                        // dan menembak dengan kekuatan besar yaitu 4
         }
     }
 
     public override void OnHitWall(HitWallEvent e)
     {
-        Console.WriteLine("Ouch! I hit a wall, must turn back!");
-        Back(50);
-        TurnRight(90);
+        Back(50);                           // jika menabrak tembok, bot akan mundur dan putar balik
+        TurnRight(180);
     }
 
-    // We were hit by a bullet -> turn perpendicular to the bullet
     public override void OnHitByBullet(HitByBulletEvent evt)
     {
-        TurnRight(90);
-        Forward(100);
-        // // Calculate the bearing to the direction of the bullet
-        // var bearing = CalcBearing(evt.Bullet.Direction);
-
-        // // Turn 90 degrees to the bullet direction based on the bearing
-        // TurnLeft(90 - bearing);
+        TurnRight(90);                      // jika terkena bullet maka bot akan menghindar
+        Forward(100);                       // dengan belok ke arah kanan sebanyak 90 derajat lalu maju
     }
-    /* Read the documentation for more events and methods */
+
     private void TurnToFaceTarget(double x, double y)
     {
         var bearing = BearingTo(x, y);
