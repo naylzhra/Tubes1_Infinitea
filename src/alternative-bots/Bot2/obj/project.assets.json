@@ -823,11 +823,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Documents\\Nayla\\Tubes1_Infinitea\\src\\alternative-bots\\Bot2v1\\Bot2v1.csproj",
-      "projectName": "Bot2v1",
-      "projectPath": "C:\\Users\\USER\\Documents\\Nayla\\Tubes1_Infinitea\\src\\alternative-bots\\Bot2v1\\Bot2v1.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Documents\\Tubes1_Infinitea\\src\\alternative-bots\\Bot2\\Bot2.csproj",
+      "projectName": "Bot2",
+      "projectPath": "C:\\Users\\USER\\Documents\\Tubes1_Infinitea\\src\\alternative-bots\\Bot2\\Bot2.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Documents\\Nayla\\Tubes1_Infinitea\\src\\alternative-bots\\Bot2v1\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Documents\\Tubes1_Infinitea\\src\\alternative-bots\\Bot2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
