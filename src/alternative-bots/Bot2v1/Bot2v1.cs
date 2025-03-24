@@ -3,11 +3,6 @@ using System.Drawing;
 using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
 
-// need to fix the radar, make it ongoing all the time
-// spin the body and gun at the same time
-// fire with more damage
-// move away to corner if energy is low
-
 public class Bot2v1 : Bot
 {
     static void Main(string[] args)
@@ -19,13 +14,14 @@ public class Bot2v1 : Bot
 
     public override void Run()
     {
-        // Set colors
-        BodyColor = Color.FromArgb(0x80, 0x00, 0x80);   // purple
-        GunColor = Color.FromArgb(0x60, 0x00, 0x60);    // dark purple
-        TurretColor = Color.FromArgb(0x60, 0x00, 0x60); // dark purple
-        RadarColor = Color.FromArgb(0xFF, 0xFF, 0x00);  // yellow
-        ScanColor = Color.FromArgb(0xFF, 0x00, 0x00);   // red
-        BulletColor = Color.FromArgb(0xFF, 0x00, 0x00); // red
+        BodyColor = Color.Plum;   
+        GunColor = Color.FromArgb(0x60, 0x00, 0x60);    
+        TurretColor = Color.Plum; 
+        RadarColor = Color.Purple;  
+        ScanColor = Color.Plum;   
+        BulletColor = Color.Purple; 
+        TracksColor = Color.Gray;
+        GunColor = Color.FromArgb(0x00, 0x00, 0x00);
 
         // Move and scan continuously
         while (IsRunning)
