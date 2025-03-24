@@ -1,10 +1,10 @@
 {
-  "name": "Bot 2",
+  "name": "Fighter",
   "version": "1.0",
   "authors": [
-    "Nayla Zahira"
+    "Nayla"
   ],
-  "description": "A bot that scans for enemies then shoot after gaining distance.",
+  "description": "A bot that focuses on bullet and ram damage.",
   "homepage": "",
   "countryCodes": [
     "id"

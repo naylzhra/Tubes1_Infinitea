@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YUkx5DWB86w=",
+  "dgSpecHash": "+rEONr8aLWE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Documents\\Nayla\\Tubes1_Infinitea\\src\\alternative-bots\\Bot2v1\\Bot2v1.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Documents\\Tubes1_Infinitea\\src\\alternative-bots\\Bot2\\Bot2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.build.locator\\1.7.8\\microsoft.build.locator.1.7.8.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

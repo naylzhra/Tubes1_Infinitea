@@ -3,14 +3,20 @@ using System.Drawing;
 using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
 
-public class Bot2v1 : Bot
+// Fighter
+//---------------------------------------------------------------------------------------------------------
+// Bot dengan fokus utamanya adalah bullet dan ram damage.
+// Bot ini menentukan kekuatan menembak berdasarkan jarak dan sudut dari bot musuh
+//---------------------------------------------------------------------------------------------------------
+
+public class Bot2 : Bot
 {
     static void Main(string[] args)
     {
-        new Bot2v1().Start();
+        new Bot2().Start();
     }
 
-    Bot2v1() : base(BotInfo.FromFile("Bot2v1.json")) { }
+    Bot2() : base(BotInfo.FromFile("Bot2.json")) { }
 
     public override void Run()
     {
@@ -24,13 +30,10 @@ public class Bot2v1 : Bot
         GunColor = Color.FromArgb(0x00, 0x00, 0x00);
 
         // Move and scan continuously
-        while (IsRunning)
-        {
+        while (IsRunning){
+        // jalan lurus dan melingkar
+            Forward(450);
             SetTurnLeft(10_000);
-            // Limit our speed to 5
-            MaxSpeed = 5;
-            // Start moving (and turning)
-            Forward(10_000);
         }
     }
 
@@ -39,18 +42,14 @@ public class Bot2v1 : Bot
         var bearing = BearingTo(e.X, e.Y);
         var distance = DistanceTo(e.X, e.Y);
 
-        // Fire depending on angle and distance
+        // tembak sesuai jarak dan sudut terhadap musuh
         if (distance > -100 && distance < 100 && Math.Abs(bearing) <= 10){
             TurnLeft(bearing);
-            Fire(Math.Min(3, Energy-0.1));
-        }
-        else if (Math.Abs(bearing) <= 10){
-            TurnLeft(bearing);
-            Fire(Math.Min(2, Energy-0.1));
+            Fire(Math.Min(4, Energy-0.1));
         }
         else if (Math.Abs(distance) <= 500){
             TurnLeft(bearing);
-            Fire(Math.Min(2, Energy-0.1));
+            Fire(Math.Min(2.5, Energy-0.1));
             Forward(150);
         }
         else{
@@ -60,26 +59,28 @@ public class Bot2v1 : Bot
     }
 
     public override void OnHitWall(HitWallEvent e){
+        // kalau menabrak tembok, mundur lalu putar arah kiri
         Forward(-30);
         TurnLeft(10);
         Run();
     }
 
     public override void OnHitByBullet(HitByBulletEvent e){
+        // kalau terkena peluru, menghindar dengan mundur lalu belok kanan lalu maju kembali
         Forward(-5);
         TurnRight(10);
         Run();
     }
     
-    public override void OnHitBot(HitBotEvent e)
-    {
+    public override void OnHitBot(HitBotEvent e){
+        // jika menabrak/ditabrak dan energi mencukupi, tembak dengan kekuatan tinggi
         var bearing = BearingTo(e.X, e.Y);
         if (Math.Abs(bearing) <= 10){
             TurnLeft(bearing);
-            Fire(Math.Min(3, Energy-0.1));
+            Fire(Math.Min(5, Energy-0.1));
             Run();
         }
-        if (e.IsRammed)
+        if (e.IsRammed) //kalau ditabrak bot lain, menghindar
         {
             TurnLeft(10);
         }
