@@ -28,8 +28,18 @@ untuk memaksimalkan peluang bertahan hidup dan mengalahkan lawan.
 ``` sh
 java -jar robocode-tankroyale-gui-0.30.0.jar
 ```
-5. Boot bot yang telah disediakan di repository
-6. ..
+5. Lakukan setup konfigurasi booter dengan klik tombol "Config" lalu klik tombol "Boot Root Directories"
+![Deskripsi Gambar](https://github.com/anellautari/image-storage/blob/main/Screenshot%20(2250).png)
+6. Masukkan directory yang berisi folder-folder bot dari program ini lalu klik "OK"
+![Deskripsi Gambar](https://github.com/anellautari/image-storage/blob/main/Screenshot%20(2251).png)
+7. Jalankan battle dengan klik tombol "Battle" dan klik "Start Battle"
+![Deskripsi Gambar](https://github.com/anellautari/image-storage/blob/main/Screenshot%20(2252).png)
+8. Pilih bot mana saja yang ingin di-boot lalu klik "Boot"
+![Deskripsi Gambar](https://github.com/anellautari/image-storage/blob/main/Screenshot%20(2253).png)
+9. Lalu pilih kembali bot mana saja yang ingin di-battle dan klik "Add"
+![Deskripsi Gambar](https://github.com/anellautari/image-storage/blob/main/Screenshot%20(2254).png)
+10. Klik "Start Battle" untuk memulai permainan
+![Deskripsi Gambar](https://github.com/anellautari/image-storage/blob/main/Screenshot%20(2255).png)
 
 
 
