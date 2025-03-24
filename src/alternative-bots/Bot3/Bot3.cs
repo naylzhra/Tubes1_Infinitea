@@ -8,16 +8,16 @@ using Robocode.TankRoyale.BotApi.Events;
 // Bot ini juga memilih ukuran peluru yang dikeluarkan berdasarkan jarak
 //---------------------------------------------------------------------------------------------------------
 
-public class Bot3_infinitea : Bot
+public class Bot3 : Bot
 {
     int turnDirection = 1;
     static void Main(string[] args)
     {
-        new Bot3_infinitea().Start();
+        new Bot3().Start();
     }
 
     // Constructor, which loads the bot config file
-    Bot3_infinitea() : base(BotInfo.FromFile("Bot3_infinitea.json")) { }
+    Bot3() : base(BotInfo.FromFile("Bot3.json")) { }
 
 
     public override void Run()

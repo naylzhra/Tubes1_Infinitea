@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anella Utari\\Documents\\GitHub\\Tubes1_Infinitea\\src\\main_bot\\main_bot.csproj": {}
+    "E:\\Tubes1_Infinitea\\src\\main_bot\\main_bot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anella Utari\\Documents\\GitHub\\Tubes1_Infinitea\\src\\main_bot\\main_bot.csproj": {
+    "E:\\Tubes1_Infinitea\\src\\main_bot\\main_bot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anella Utari\\Documents\\GitHub\\Tubes1_Infinitea\\src\\main_bot\\main_bot.csproj",
+        "projectUniqueName": "E:\\Tubes1_Infinitea\\src\\main_bot\\main_bot.csproj",
         "projectName": "main_bot",
-        "projectPath": "C:\\Users\\Anella Utari\\Documents\\GitHub\\Tubes1_Infinitea\\src\\main_bot\\main_bot.csproj",
-        "packagesPath": "C:\\Users\\Anella Utari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anella Utari\\Documents\\GitHub\\Tubes1_Infinitea\\src\\main_bot\\obj\\",
+        "projectPath": "E:\\Tubes1_Infinitea\\src\\main_bot\\main_bot.csproj",
+        "packagesPath": "C:\\Users\\diyah\\.nuget\\packages\\",
+        "outputPath": "E:\\Tubes1_Infinitea\\src\\main_bot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Anella Utari\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\diyah\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
