@@ -8,14 +8,17 @@ By Kelompok 8 Infinitea
 
 | **NIM**  | **Nama** |
 | ------------- |:-------------:|
-| 13523078   | Nayla Zahira |
-| 13523079   | Anella Utari Gunadi |
+| 13523078   | Anella Utari Gunadi |
+| 13523079   | Nayla Zahira |
 | 13523080   | Diyah Susan Nugrahani |
 
 </div>
 
 ## Apa itu Robocode Tank Royale?
-   
+Robocode Tank Royale adalah game pemrograman di mana pemain berperan sebagai programmer yang menciptakan AI bot dalam bentuk tank.
+Pertarungan berlangsung selama 10 ronde dengan memperhitungkan skor dari berbagai aspek.
+Bot yang dibuat dalam program ini menggunakan strategi greedy yang berfokus pada pengambilan keputusan optimal dalam setiap langkah
+untuk memaksimalkan peluang bertahan hidup dan mengalahkan lawan.
 
 ## Bagaimana Cara Menjalankan Game?
 1. Clone repository https://github.com/naylzhra/Tubes1_Infinitea.git
